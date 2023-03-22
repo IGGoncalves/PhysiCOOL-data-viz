@@ -13,7 +13,7 @@ palettes = px.colors.named_colorscales()
 
 dash.register_page(__name__)
 
-OUTPUT_PATH = Path("../output_norm_cond")
+OUTPUT_PATH = Path("../output")
 frames = (
     int(processing.get_cell_file_num(output_path=OUTPUT_PATH, version="1.10.2")) - 1
 )

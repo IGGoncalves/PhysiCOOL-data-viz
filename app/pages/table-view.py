@@ -7,7 +7,6 @@ import pandas as pd
 
 dash.register_page(__name__)
 
-OUTPUT_PATH = Path("../output_norm_cond")
 DATA = pd.read_csv("output_data.csv")
 TIME_INTERVAL = int(DATA["time"].unique()[1])
 

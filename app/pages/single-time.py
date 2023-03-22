@@ -13,7 +13,7 @@ palettes = px.colors.named_colorscales()
 
 dash.register_page(__name__)
 
-OUTPUT_PATH = Path("../output_norm_cond")
+OUTPUT_PATH = Path("../output")
 DATA = pd.read_csv("output_data.csv")
 TIME_INTERVAL = int(DATA["time"].unique()[1])
 print(TIME_INTERVAL)
